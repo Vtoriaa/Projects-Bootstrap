@@ -1,0 +1,131 @@
+
+
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+
+
+.animate__animated.animate__bounceInUp {
+    animation-duration: 2s;
+}
+
+.content, .image {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url('../img/DRIP_20.png');
+    background-size: 35vw;
+    background-position: center;
+    background-color: #99fff6;
+    background-repeat: no-repeat;
+}
+
+.brand {
+    padding: 2.7rem 0;
+}
+
+.label p {
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.label .bx {
+    vertical-align: middle;
+    color: #7D7D7D;
+    font-size: 1.4;
+}
+
+.flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.text {
+    font-family: 'Poppins';
+}
+
+.text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 0 2rem 0;
+}
+
+.text p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    text-transform: capitalize;
+    background-color: #9832E0;
+    box-shadow: 0px 17px 30px rgba(58, 83, 255, 0.29);
+}
+
+a.btn {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 16px;
+}
+
+a.btn i {
+    font-size: 34px;
+    vertical-align: middle;
+    padding-left: 106px;
+}
+
+@media(max-width: 576px) {
+    a.btn {
+        display: block;
+    }
+
+    a.btn i {
+        padding-left: 0;
+    }
+
+    .label p {
+        font-size: 16px;
+    }
+
+    .text h5 {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 142.02%;
+    }
+
+    .text p {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    a.btn {
+        display: block;
+    }
+
+    a.btn i {
+        padding-left: 0;
+    }
+
+    .label p {
+        font-size: 16px;
+    }
+
+    .text h5 {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 142.02%;
+    }
+
+    .text p {
+        font-size: 40px;
+    }
+}
